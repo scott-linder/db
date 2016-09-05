@@ -252,7 +252,7 @@ int tracer(ud_t *ud) {
 				"\td             | dissassemble current instruction\n"
 				"\tr <reg>       | read register\n"
 				"\tw <reg> <val> | write register\n"
-				"\tg <adr>       | poke register\n"
+				"\tg <adr>       | get memory\n"
 				"\tp <adr> <val> | poke memory\n"
 				"\te             | exit\n"
 				"registers:\n"
