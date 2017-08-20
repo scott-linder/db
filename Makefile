@@ -5,5 +5,4 @@ default: db
 
 .PHONY: clean
 clean:
-	rm db
-	rm *.o
+	rm -f db
