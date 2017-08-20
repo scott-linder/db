@@ -1,4 +1,7 @@
+sudo: required
 language: c
+before_install:
+  - ./deps-travis.sh
 script: make
 compiler:
   - clang
