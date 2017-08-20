@@ -1,6 +1,8 @@
 db
 ==
 
+[![Build Status](https://travis-ci.org/scott-linder/db.svg?branch=master)](https://travis-ci.org/scott-linder/db)
+
 A simple x86_64 debugger written with ptrace and
 [Udis86](http://udis86.sourceforge.net/)
 
