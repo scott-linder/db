@@ -1,3 +1,4 @@
+#define _POSIX_C_SOURCE 200809L
 #include <errno.h>
 #include <limits.h>
 #include <stdbool.h>
@@ -9,6 +10,7 @@
 #include <sys/ptrace.h>
 #include <sys/user.h>
 #include <sys/wait.h>
+#include <sys/types.h>
 #include <udis86.h>
 #include <unistd.h>
 
